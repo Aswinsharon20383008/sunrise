@@ -1,0 +1,169 @@
+.title {
+  font-weight: 500;
+  font-size: 16px;
+}
+th {
+  text-align: center;
+}
+td {
+  vertical-align: middle;
+}
+.modal {
+  box-shadow: 2px 2px 20px 1px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+}
+.tdCenterAlign {
+  text-align: center;
+}
+.modal-body {
+  padding: 20px 10px;
+  background: #ffffff;
+  position: fixed;
+  float: left;
+  left: 53%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 480px;
+  min-width: 450px;
+}
+
+.content-display {
+  max-width: 100%;
+  border: 3px solid #ffffff;
+}
+
+.modal-fade-enter,
+.modal-fade-leave-to {
+  opacity: 0;
+}
+
+.modal-fade-enter-active,
+.modal-fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.padd10 {
+  padding-bottom: 10px;
+}
+
+.modalFooter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+.modalFooter > :not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+#loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  span {
+    color: whitesmoke;
+    font-weight: 800;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: normal;
+    background: rgba(0, 0, 0, 0.5);
+    width: 35%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.action-button {
+  padding: 12px 20px 12px;
+}
+
+.errorMessage {
+  color: #d27c82;
+  padding: 10px;
+  background-color: #ffe2e4;
+  margin-bottom: 10px;
+}
+
+.successMessage {
+  color: #72c279;
+  padding: 10px;
+  background-color: #ddf0de;
+  margin-bottom: 10px;
+}
+.tableBordered {
+  border: 1px solid #dee2e6 !important;
+}
+
+div#actionButtons {
+  overflow: hidden;
+}
+
+div#actionButtons button {
+  float: right;
+  margin-right: 2px;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-0 {
+  margin: 0px !important;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.margin-right-10 {
+  margin-right: 10px;
+}
+
+.action-buttons-div {
+  float: right;
+  margin: 40px 0px 0px 0;
+}
+
+.pad-15 {
+  padding: 15px;
+}
+
+.div-row {
+  border: 1px solid #dee2e6;
+  padding: 15px 0px;
+  margin: 0px;
+}
+
+.div-row-style {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+.div-row-alter {
+  border-left: 1px solid rgb(222, 226, 230);
+  padding: 15px 0px;
+  margin: 0px;
+  border-right: 1px solid rgb(222, 226, 230);
+}
+.font-weight {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.flex-iframe {
+  width: 100px;
+  height: 100px;
+  border: 0;
+  position: absolute;
+  top: -5000px;
+}
