@@ -1,0 +1,23 @@
+en:
+  customerToken: "Customer Token"
+  subscription: "Subscription"
+  cardAlias: "Card Alias"
+  cardNumber: "Card Number"
+  expiryMonth: "Expiry Month"
+  expiryYear: "Expiry Year"
+  more: "More"
+  edit: "Edit"
+  delete: "Delete"
+  emptyTokens: "You have no cards saved yet!"
+  greeting: "Hello"
+  notYou: "If it's not you"
+  logout: "Logout"
+  description: "From your account dashboard you can easily check & view your recent orders,
+      manage your shipping and billing addresses and edit your password and account details."
+de:
+  greeting: "Hallo"
+  notYou: "Wenn das nicht Sie sind"
+  logout: "Abmelden"
+  description: "Über Ihr Konto-Dashboard können Sie ganz einfach Ihre letzten Bestellungen überprüfen und anzeigen.
+       Verwalten Sie Ihre Versand- und Rechnungsadressen und bearbeiten Sie Ihr Passwort und Ihre Kontodaten."
+

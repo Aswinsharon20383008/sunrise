@@ -1,0 +1,3 @@
+en:
+  placeOrder: "Place Order",
+  billingAgreement : "Billing Agreement"
