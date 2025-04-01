@@ -1,0 +1,10 @@
+en:
+  thankYou: "Thank you for your order!"
+  continueShopping: "Continue shopping"
+  orderDetails: "Your order details"
+  orderNumber: "Order number"
+  orderDate: "Order date"
+de:
+  thankYou: "Vielen Dank für Ihre Bestellung!"
+  continueShopping: "Weiter einkaufen"
+
